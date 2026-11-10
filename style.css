@@ -4,14 +4,57 @@
 
 body {
     margin: 0;
+  
+}
+
+.bouton {
+    text-decoration: none;
+    margin: 30px 0;
 }
 
 .bouton_transparent {
-    
+    color: #F5E0C3;
+    background-color: none;
+    border: solid 1px #F5E0C3;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.bouton_plein {
+    color: #F5E0C3;
+    background-color: #7F183E;
+    font-family: "Parisienne", cursive;
+    font-size: 63px;
+    padding: 20px 50px;
+    border-radius: 40px;
 }
 
 header {
+    background-color: #7F183E;
+    min-height: 15vh;
     display: flex;
-    justify-content: flex-end;
-    gap: ;
+    justify-content: space-between;
+    padding: 10px 50px;
 }
+
+nav {
+    display: flex;
+    padding: 10px 50px;
+    gap: 20px;
+}
+.logo {
+      width: 5%;
+}  
+
+.hero {
+    background-image: url(assets/couverture-pexels-fotios-photos-918327.jpg);
+    background-size: cover;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+ 
