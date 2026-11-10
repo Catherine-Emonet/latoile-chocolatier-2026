@@ -1,0 +1,17 @@
+* {
+
+}
+
+body {
+    margin: 0;
+}
+
+.bouton_transparent {
+    
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    gap: ;
+}
