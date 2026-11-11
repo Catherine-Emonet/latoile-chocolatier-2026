@@ -1,15 +1,17 @@
-* {
-
-}
+/* * {
+border: greenyellow 1px solid;
+} */
 
 body {
     margin: 0;
+    background-color: #F5E0C3;
   
 }
 
 .bouton {
     text-decoration: none;
-    margin: 30px 0;
+    border-radius: 30px;
+    
 }
 
 .bouton_transparent {
@@ -17,44 +19,85 @@ body {
     background-color: none;
     border: solid 1px #F5E0C3;
     font-family: "Lato", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     padding: 10px 20px;
-    border-radius: 20px;
-    height: 30px;
+    /* height: 30px; */
+    /* margin: 30px 0; */
 }
 
 .bouton_plein {
     color: #F5E0C3;
     background-color: #7F183E;
     font-family: "Parisienne", cursive;
-    font-size: 63px;
-    padding: 20px 50px;
-    border-radius: 40px;
+    font-size: 28px;
+    padding: 20px;
+    display: block;
+    max-width: 150px;
+    text-align: center;
+    border: #F5E0C3 1px solid;
+    margin-bottom: 50px;
 }
 
 header {
     background-color: #7F183E;
-    min-height: 15vh;
-    display: flex;
-    justify-content: space-between;
     padding: 10px 50px;
+    text-align: end;
 }
 
 nav {
-    display: flex;
-    padding: 10px 50px;
+    padding: 10px 10px;
     gap: 20px;
 }
+
+
 .logo {
-      width: 5%;
+      width: 15%;
+      justify-content: center;
+      margin-top: 30px;
+      backdrop-filter: contrast(0.75);
 }  
 
 .hero {
-    background-image: url(assets/couverture-pexels-fotios-photos-918327.jpg);
+    background-image: url(assets/couverture-pexels-fotios-photos-918327\(1920-1280\).jpg);
+    /* background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* min-height: 600px; */
     background-size: cover;
-    min-height: 85vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    background-position: center 40%;
 }
+.heroContent {
+    display: flex;
+    min-height: 600px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.boiteviolette {
+    background-color: #7F183E;
+    height: 50px;
+}
+.boitecreme {
+    text-align: center;
+    h1 {
+        font-family: "Parisienne", cursive;
+        font-size: 69px;
+        color: #7F183E;
+        margin-bottom: 0;
+    }
+    p {
+        font-family: "Lato", sans-serif;
+        font-size: 28px;
+        color: #441102;
+        margin-top: 0;
+    }
+}
+
  
