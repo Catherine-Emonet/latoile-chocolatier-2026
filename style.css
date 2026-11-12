@@ -206,14 +206,27 @@ nav {
         color: #7F183E;
         font-size: 35px;
     }
-    .note {
-        text-align: center;
+    .étoiles {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 32px;
+    }
+    i {
+        color: #7F183E;
     }
 }
 
 footer {
     background-color: #7F183E;
     padding: 32px 32px 0 32px;
+    i {
+        color: #F5E0C3;
+        width: 16px;
+    }
+    .icones {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 .tiroirFooter {
     display: flex;
