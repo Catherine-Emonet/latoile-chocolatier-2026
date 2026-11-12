@@ -28,6 +28,12 @@ p {
     font-size: 18px;
 }
 
+a {
+    text-decoration: none;
+    color: #F5E0C3;
+    font-family: "Lato", sans-serif;
+}
+
 body {
     margin: 0;
     background-color: #F5E0C3;
@@ -47,8 +53,6 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 14px;
     padding: 8px 16px;
-    /* height: 30px; */
-    /* margin: 30px 0; */
 }
 
 .bouton_plein {
@@ -85,10 +89,6 @@ nav {
 
 .hero {
     background-image: url(assets/couverture-pexels-fotios-photos-918327\(1920-1280\).jpg);
-    /* background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat; */
-    /* min-height: 600px; */
     background-size: cover;
     background-position: center 40%;
 }
@@ -213,7 +213,7 @@ nav {
 
 footer {
     background-color: #7F183E;
-    padding: 32px;
+    padding: 32px 32px 0 32px;
 }
 .tiroirFooter {
     display: flex;
@@ -224,9 +224,15 @@ footer {
     .contact {
         text-align: center;
     }
-    a {
-        text-decoration: none;
-        font-family: "Lato", sans-serif;
-        color: #F5E0C3;
+}
+
+.pieddepage {
+    text-align: center;
+    color: #F5E0C3;
+    display: flex;
+    flex-direction: column;
+    p {
+        margin-bottom: 0;
+        font-size: xx-small;
     }
 }
