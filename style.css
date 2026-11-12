@@ -76,6 +76,9 @@ body {
 header {
     background-color: #7F183E;
     padding: 8px 48px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 nav {
