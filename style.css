@@ -210,3 +210,23 @@ nav {
         text-align: center;
     }
 }
+
+footer {
+    background-color: #7F183E;
+    padding: 32px;
+}
+.tiroirFooter {
+    display: flex;
+    justify-content: space-between;
+    p {
+        color: #F5E0C3;
+    }
+    .contact {
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        font-family: "Lato", sans-serif;
+        color: #F5E0C3;
+    }
+}
