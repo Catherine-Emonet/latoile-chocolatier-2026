@@ -93,7 +93,7 @@ nav {
       width: 15%;
       justify-content: center;
       margin-top: 32px;
-      backdrop-filter: contrast(0.75);
+      backdrop-filter: contrast(0.8);
 }  
 
 .hero {
@@ -106,8 +106,14 @@ nav {
     min-height: 640px;
     justify-content: space-between;
     flex-direction: column;
-    align-items: center;
-    
+    .casierhautHero {
+        padding-left: 64px;
+    }
+    .casierbasHero {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
 }
 
 .container {
@@ -150,6 +156,7 @@ nav {
     box-shadow: 5px 5px 5px #7F183E;
     min-height: 128px;
     margin: 32px 0;
+    width: 30%;
     p {
         font-family: "Parisienne", "Edu NSW ACT Cursive";
         font-size: 23px;
