@@ -184,3 +184,29 @@ nav {
         padding: 0 16px;
     }
 }
+
+.Témoignages {
+    h2 {
+        font-size: 44px;
+        text-align: center;
+    }
+}
+.tiroirTémoignage {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 64px;
+}
+.carteTémoignage {
+    border: #7F183E solid 1px;
+    border-radius: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    h3 {
+        text-align: center;
+        color: #7F183E;
+        font-size: 35px;
+    }
+    .note {
+        text-align: center;
+    }
+}
