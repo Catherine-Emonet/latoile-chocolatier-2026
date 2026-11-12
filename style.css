@@ -1,6 +1,6 @@
-* {
+/* * {
 border: greenyellow 1px solid;
-}
+} */
 
 h1 {
     font-family: "Parisienne", "Edu NSW ACT Cursive";
@@ -76,7 +76,7 @@ header {
 
 nav {
     padding: 8px;
-    gap: 16px;
+    gap: 32px;
 }
 
 
@@ -124,7 +124,7 @@ nav {
 
 .violette {
     background-color: #7F183E;
-    padding-top: 32px;
+    padding: 32px;
 }
 
 .contenantPromesses {
@@ -154,15 +154,20 @@ nav {
 .services {
     display: flex;
     justify-content: space-between;
+    gap: 32px;
 }
 .carteServices {
     text-align: center;
+    border: #F5E0C3 1px solid;
+    border-radius: 20px;
+    padding: 8px;
     img {
         width: 256px;
         border-radius: 20px;
     }
     p{
     color: #F5E0C3;
+    text-align: left;
     }
 }
 
@@ -184,6 +189,11 @@ nav {
         padding: 0 16px;
     }
 }
+.carteProduit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .Témoignages {
     h2 {
@@ -194,7 +204,7 @@ nav {
 .tiroirTémoignage {
     display: flex;
     justify-content: space-evenly;
-    gap: 64px;
+    gap: 32px;
 }
 .carteTémoignage {
     border: #7F183E solid 1px;
@@ -231,11 +241,16 @@ footer {
 .tiroirFooter {
     display: flex;
     justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
     p {
         color: #F5E0C3;
     }
     .contact {
         text-align: center;
+    }
+    .bouton {
+        max-width: 64px;
     }
 }
 
