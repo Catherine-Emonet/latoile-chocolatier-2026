@@ -71,12 +71,13 @@ body {
 header {
     background-color: #7F183E;
     padding: 8px 48px;
-    text-align: end;
 }
 
 nav {
     padding: 8px;
-    gap: 32px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
 }
 
 
