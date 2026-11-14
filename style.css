@@ -42,13 +42,11 @@ a:hover {
 body {
     margin: 0;
     background-color: #F5E0C3;
-  
 }
 
 .bouton {
     text-decoration: none;
     border-radius: 30px;
-    
 }
 
 .bouton_transparent {
@@ -88,7 +86,6 @@ nav {
     gap: 16px;
 }
 
-
 .logo {
       width: 15%;
       justify-content: center;
@@ -101,7 +98,7 @@ nav {
     background-size: cover;
     background-position: center 40%;
 }
-.heroContent {
+.tiroirHero {
     display: flex;
     min-height: 640px;
     justify-content: space-between;
@@ -124,11 +121,11 @@ nav {
     margin-bottom: 64px;
 }
 
-.boiteviolette {
+.boitevioletteSection2 {
     background-color: #7F183E;
     height: 48px;
 }
-.boitecreme {
+.boitecremeSection2 {
     text-align: center;
     p {
         font-size: 28px;
@@ -137,12 +134,7 @@ nav {
     }
 }
 
-.violette {
-    background-color: #7F183E;
-    padding: 32px;
-}
-
-.contenantPromesses {
+.tiroirPromesses {
     list-style-position: inside;
     display: flex;
     justify-content: space-between;
@@ -166,8 +158,13 @@ nav {
         padding: 16px;
     }
 }
+
+.section4violette {
+    background-color: #7F183E;
+    padding: 32px;
+}
  
-.services {
+.tiroirServices {
     display: flex;
     justify-content: space-between;
     gap: 32px;
@@ -190,7 +187,6 @@ nav {
 .sectionProduits {
     background-color: #F5E0C3;
 }
-
 .tiroirProduit {
     display: flex;
     justify-content: space-between;
@@ -211,7 +207,7 @@ nav {
     justify-content: center;
 }
 
-.Témoignages {
+.sectionTémoignages {
     h2 {
         font-size: 44px;
         text-align: center;
@@ -245,18 +241,6 @@ nav {
 footer {
     background-color: #7F183E;
     padding: 32px 32px 0 32px;
-    i {
-        color: #F5E0C3;
-        width: 16px;
-    }
-    .icones {
-        display: flex;
-        justify-content: space-between;
-    }
-    a {
-        text-align: center;
-    }
-
 }
 .tiroirFooter {
     display: flex;
@@ -266,13 +250,10 @@ footer {
     p {
         color: #F5E0C3;
     }
-    .contact {
+}
+.casierContact {
         text-align: center;
     }
-    .bouton {
-        max-width: 64px;
-    }
-}
 .casierBasFooter {
     display: flex;
     justify-content: space-between;
@@ -281,25 +262,30 @@ footer {
     p {
         color: #F5E0C3;
     }
-    .contact {
-        text-align: center;
-    }
     .logo {
         margin: 0;
     }
     iframe {
         padding-right: 64px;
     }
-     .icones {
+    .icones {
         display: flex;
         justify-content: space-between;
         gap: 16px;
         align-items: center;
-     }
+    }
+    i {
+        color: #F5E0C3;
+        width: 16px;
+        }
 }
 .pieddepage {
     margin-bottom: 0;
     text-align: center;
+    .bouton {
+        max-width: 64px;
+        text-align: center;
+    }
     p {
         font-size: xx-small;
         color: #F5E0C3;
